@@ -47,6 +47,9 @@ st.markdown(
 header_container = st.container()
 
 
+from PIL import Image
+image = Image.open('arxiv.png')
+
 
 
 
@@ -60,7 +63,7 @@ with header_container:
 	# different levels of text you can include in your app
 	st.title("Arxiv Research Paper Recommender")
 	#st.header("Welcome!")
-        #st.image('arxiv.png')
+        st.image(image)
 	#st.subheader("This is a great app")
 	st.write(
         "Searching For recommendation of simmilar research Paper ?",

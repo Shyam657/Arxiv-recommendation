@@ -16,7 +16,7 @@ papers=pickle.load(open('papers.pkl','rb'))
 
 
 
-
+model = SentenceTransformer('sentence-transformers/bert-base-nli-mean-tokens')
 
 
 

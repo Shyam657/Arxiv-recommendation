@@ -44,7 +44,7 @@ st.markdown(
     )
 #################
 
-header_container = st.beta_container()
+header_container = st.container()
 
 
 

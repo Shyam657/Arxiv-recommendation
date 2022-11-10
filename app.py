@@ -11,7 +11,7 @@ from sentence_transformers import SentenceTransformer, util
 
 
 
-embeddings=np.load(r"C:\Users\shyam\Downloads\arxiv\arxivtitle_embeddings_10-11-2022.npy")
+embeddings=np.load("arxivtitle_embeddings_10-11-2022.npy")
 papers=pickle.load(open('papers.pkl','rb'))
 
 

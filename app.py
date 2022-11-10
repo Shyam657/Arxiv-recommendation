@@ -5,28 +5,10 @@ import numpy as np
 import torch
 from sentence_transformers import SentenceTransformer, util
 
-
-
-
-
-
+model = SentenceTransformer('sentence-transformers/bert-base-nli-mean-tokens')
 
 embeddings=np.load("arxivtitle_embeddings_10-11-2022.npy")
 papers=pickle.load(open('papers.pkl','rb'))
-
-
-
-model = SentenceTransformer('sentence-transformers/bert-base-nli-mean-tokens')
-
-
-
-
-
-
-
-
-
-
 
 def recommend(query):
     #Compute cosine-similarities with all embeddings
@@ -35,9 +17,32 @@ def recommend(query):
     top5_matches = torch.argsort(cosine_scores, dim=-1, descending=True).tolist()[0][1:6]
     return top5_matches
 
-id = 'quantum'
-#query_show_des = papers.loc[netflix_data['show_id'] == id]['description'].to_list()[0]
-recommendded_results = recommend(id)
+st.markdown("""
+        <h1 style='text-align: center; margin-bottom: -35px;'>
+        Arxiv Research Paper Recommender
+        </h1>
+    """, unsafe_allow_html=True
+    )
+
+    
+
+st.write(
+        "Searching For recommendation of simmilar research Paper ?",
+        "Your search ends here !!! \U0001F642")
+
+selected_keyword = st.selectbox(
+    "Type Keyword for Related Paper ."
+)
+
+if st.button('Show Recommendation'):
+    
+    for index in recommendded_results:
+        
+        #st.text(papers.iloc[index,:])
+        st.text(papers.iloc[index].iloc[0])
+    
+
+
 
 for index in recommendded_results:
     st.text(papers.iloc[index,:])

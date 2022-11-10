@@ -35,11 +35,7 @@ st.markdown(
     	max-width:40%;
     	margin-bottom:40px;
     }}
-    .stApp {{
-             background-image: url("https://cdn.pixabay.com/photo/2022/10/11/21/58/texture-7515225__340.jpg");
-             background-attachment: fixed;
-             background-size: cover
-         }}
+    
 </style>
 """,
     unsafe_allow_html=True,
@@ -79,3 +75,16 @@ if st.button('Show Recommendation'):
             st.write("Published Year :  ",papers.iloc[index].iloc[2])
             st.write("Paper DOI :  ",papers.iloc[index].iloc[3])
             st.write("Abstract :  ",papers.iloc[index].iloc[1])
+            
+            
+            
+    '''
+    
+    .stApp {{
+             background-image: url("https://cdn.pixabay.com/photo/2022/10/11/21/58/texture-7515225__340.jpg");
+             background-attachment: fixed;
+             background-size: cover
+         }}
+    
+    
+    '''

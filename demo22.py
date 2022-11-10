@@ -36,7 +36,7 @@ st.markdown(
     	margin-bottom:40px;
     }}
     .stApp {{
-             background-image: url("https://cdn.pixabay.com/photo/2016/09/08/12/00/stars-1654074__340.jpg");
+             background-image: url("https://cdn.pixabay.com/photo/2022/10/11/21/58/texture-7515225__340.jpg");
              background-attachment: fixed;
              background-size: cover
          }}

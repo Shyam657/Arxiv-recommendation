@@ -52,6 +52,7 @@ header_container = st.beta_container()
 
 
 with header_container:
+	
 
 	# for example a logo or a image that looks like a website header
 	
@@ -59,7 +60,7 @@ with header_container:
 	# different levels of text you can include in your app
 	st.title("Arxiv Research Paper Recommender")
 	#st.header("Welcome!")
-        st.image('arxiv.png')
+        #st.image('arxiv.png')
 	#st.subheader("This is a great app")
 	st.write(
         "Searching For recommendation of simmilar research Paper ?",

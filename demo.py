@@ -77,11 +77,17 @@ selected_keyword = st.text_input(
 
 
 recommendded_results = recommend(selected_keyword)
-
+#l=[]
 if st.button('Show Recommendation'):
     
     for index in recommendded_results:
         
         #st.text(papers.iloc[index,:])
-        st.text(papers.iloc[index].iloc[0])
+        #st.text(papers.iloc[index].iloc[0])
+	#l.append(papers.iloc[index].iloc[0])
+	with st.expander(papers.iloc[index].iloc[0]):
+		st.write(papers.iloc[index].iloc[2])
+	        st.write(papers.iloc[index].iloc[1])
+		
+	
     

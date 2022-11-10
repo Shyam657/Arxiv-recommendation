@@ -71,5 +71,6 @@ if st.button('Show Recommendation'):
         # st.text(papers.iloc[index].iloc[0])
         # l.append(papers.iloc[index].iloc[0])
         with st.expander(papers.iloc[index].iloc[0]):
-            st.write(papers.iloc[index].iloc[2])
-            st.write(papers.iloc[index].iloc[1])
+            st.write("Published Year :  ",papers.iloc[index].iloc[2])
+            st.write("Paper DOI :  ",papers.iloc[index].iloc[3])
+            st.write("Abstract :  ",papers.iloc[index].iloc[1])

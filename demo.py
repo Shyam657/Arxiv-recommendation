@@ -59,7 +59,7 @@ with header_container:
 	# different levels of text you can include in your app
 	st.title("Arxiv Research Paper Recommender")
 	#st.header("Welcome!")
-    st.image('arxiv.png')
+        st.image('arxiv.png')
 	#st.subheader("This is a great app")
 	st.write(
         "Searching For recommendation of simmilar research Paper ?",

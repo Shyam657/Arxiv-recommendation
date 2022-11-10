@@ -42,7 +42,7 @@ if st.button('Show Recommendation'):
         st.text(papers.iloc[index].iloc[0])
     
 
-
+    recommendded_results = recommend(selected_keyword)
 
 for index in recommendded_results:
     st.text(papers.iloc[index,:])

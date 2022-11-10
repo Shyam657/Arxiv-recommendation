@@ -34,6 +34,9 @@ selected_keyword = st.text_input(
     "Type Keyword for Related Paper .",'Quantum'
 )
 
+
+recommendded_results = recommend(selected_keyword)
+
 if st.button('Show Recommendation'):
     
     for index in recommendded_results:
@@ -42,7 +45,4 @@ if st.button('Show Recommendation'):
         st.text(papers.iloc[index].iloc[0])
     
 
-recommendded_results = recommend(selected_keyword)
 
-for index in recommendded_results:
-    st.text(papers.iloc[index].iloc[0])

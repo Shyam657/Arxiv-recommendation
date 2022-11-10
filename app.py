@@ -30,8 +30,8 @@ st.write(
         "Searching For recommendation of simmilar research Paper ?",
         "Your search ends here !!! \U0001F642")
 
-selected_keyword = st.selectbox(
-    "Type Keyword for Related Paper ."
+selected_keyword = st.text_input(
+    "Type Keyword for Related Paper .",'Quantum'
 )
 
 if st.button('Show Recommendation'):

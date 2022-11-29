@@ -31,8 +31,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+![alt text](https://github.com/Shyam657/Arxiv-recommendation/blob/main/Files/Screenshot.png?raw=true)
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 This is a Project about a Research Paper Recommender on Arxiv. It recommendes Simmilar Research Paper on Arxiv along with their Pubishing Year, DOI and abstract . 
 

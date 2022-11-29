@@ -13,7 +13,7 @@ Motivation:
 *  one-day, I was reading a Research-Paper about Quantum-Copmutation on Arxiv, Then I thought of reading simmilar Research paper. 
 *  So, I thoght why not make my own recommendation engine about it. Here it is !!
 
-Unfortunately for the space limit on Streamlit and Heroku I can't host my Project there. All the steps are there to reproduce the project.
+Unfortunately As  my project size  limit exceeds on Streamlit and Heroku , so, I can't host my Project there. All the steps are there to reproduce the project.
 
 
 

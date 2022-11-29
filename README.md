@@ -10,7 +10,7 @@
 This is a Project about a Research Paper Recommender on Arxiv. It recommendes Simmilar Research Paper on Arxiv along with their Pubishing Year, DOI and abstract . 
 
 Motivation:
-*  In a day, I was reading a Research-Paper about Quantum-Copmutation on Arxiv, Then I thought of reading simmilar Research paper. 
+*  one-day, I was reading a Research-Paper about Quantum-Copmutation on Arxiv, Then I thought of reading simmilar Research paper. 
 *  So, I thoght why not make my own recommendation engine about it. Here it is !!
 
 Unfortunately for the space limit on Streamlit and Heroku I can't host my Project there. All the steps are there to reproduce the project.
@@ -24,9 +24,10 @@ Unfortunately for the space limit on Streamlit and Heroku I can't host my Projec
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* Hugging Face
+
+* Hugging Face sentence transformer
+* pytorch
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

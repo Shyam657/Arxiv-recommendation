@@ -62,6 +62,9 @@ https://user-images.githubusercontent.com/103296209/204440550-d14d2a67-9e93-47f0
 
 ###Description
 
-*From Kaggle datasets I downloaded the arxiv Research_paper Dataset from following [link]([https://www.google.com](https://www.kaggle.com/datasets/Cornell-University/arxiv/code)
+*From Kaggle datasets I downloaded the arxiv Research_paper Dataset from following [link](https://www.kaggle.com/datasets/Cornell-University/arxiv/code)
+
+
+
 Using the Hugging Face transformers I used Arxiv-Extracted 
 

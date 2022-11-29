@@ -63,8 +63,17 @@ https://user-images.githubusercontent.com/103296209/204440550-d14d2a67-9e93-47f0
 ###Description
 
 *From Kaggle datasets I downloaded the arxiv Research_paper Dataset from following [link](https://www.kaggle.com/datasets/Cornell-University/arxiv/code)
+You can Downloadload the dataset using the following kaggle api command
+!kaggle datasets download -d Cornell-University/arxiv
 
 
+I preprocessed the data and extraced title, DOI,Year,abstract from it.
 
-Using the Hugging Face transformers I used Arxiv-Extracted 
+
+Using the Hugging Face transformers I encoded the extracted Data with hugging face sentence Transformers.
+
+
+Used cosine simmilarity with encoded  Search keyword (encoded with the same model of transformers) and original Data.
+ 
+Extracted and Printed the desired information with resulting cosine simmilarity.
 

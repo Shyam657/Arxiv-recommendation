@@ -15,6 +15,9 @@ Motivation:
 
 Unfortunately for the space limit on Streamlit and Heroku I can't host my Project there. All the steps are there to reproduce the project.
 
+
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -32,17 +35,17 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-*Install The Requirements 
+Install The Requirements 
 
-* pip install -r requirements.txt
+ pip install -r requirements.txt
 
 
 ### Running
 
-*Run the app.py file
+Run the app.py file
 
 
-*streamlit run app.py
+streamlit run app.py
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -57,5 +60,8 @@ https://user-images.githubusercontent.com/103296209/204440550-d14d2a67-9e93-47f0
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+###Description
 
+*From Kaggle datasets I downloaded the arxiv Research_paper Dataset from following [link]([https://www.google.com](https://www.kaggle.com/datasets/Cornell-University/arxiv/code)
+Using the Hugging Face transformers I used Arxiv-Extracted 
 

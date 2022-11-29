@@ -18,7 +18,7 @@ Unfortunately As  my project size  limit exceeds on Streamlit and Heroku , so, I
 
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
@@ -29,7 +29,6 @@ Unfortunately As  my project size  limit exceeds on Streamlit and Heroku , so, I
 * Hugging Face sentence transformer
 * pytorch
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -48,7 +47,6 @@ Run the app.py file
 
 streamlit run app.py
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ###Quick Demo
 
@@ -59,7 +57,7 @@ https://user-images.githubusercontent.com/103296209/204440550-d14d2a67-9e93-47f0
 
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ###Description
 
